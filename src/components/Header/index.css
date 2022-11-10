@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+@media screen and (min-width: 768px) {
+  .nav-bar {
+    padding: 20px;
+  }
+}
+.card-container {
+  display: flex;
+  align-items: center;
+}
+.img-wave {
+  height: 30px;
+  width: 30px;
+}
+.heading-wave {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+.list-items-container {
+  display: flex;
+  padding: 2px;
+  color: #12022f;
+}
+.link-item {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #12022f;
+  list-style-type: none;
+  margin-left: 15px;
+  text-decoration: none;
+}
